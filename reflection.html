@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>My Week 4 Reflection Summary</title>
+    </head>
+
+    <body>
+        <header>
+            <h1>My Week 4 Reflection Summary</h1>
+            <p>My week 4 reflection summary where I learn about semantic HTML, review what I already
+                knew about CSS and learn and improve on concepts I was not aware of. I'm also reflecting on
+                the difference between <code>&lt;article&gt;</code> and <code>&ltsection&gt;</code> HTML elements.
+            </p>
+    </header>
+
+        <main>
+        <article>
+        <h2>Moving on from Divs</h2>
+        <p>One of my biggest takeaways this week was finally connecting the dots between the traditional
+            <code>&lt;div&gt;</code> approach and modern HTML5 semantic elements.
+            Years ago, when I first started building web pages, I relied almost entirely on
+            <code>&lt;div&gt;</code> tags and classes to contain and style content. I remember seeing tags
+            like <code>&lt;header&gt;</code>, <code>&lt;footer&gt;</code>, and <code>&lt;article&gt;</code>
+            later on, but I never really understood the difference. I just assumed they were two ways of doing the exact same thing.</p>
+
+            <p>
+            Learning about HTML5's improvements with accessibility changed my approach. I now understand that a <code>&lt;div&gt;</code> is just an invisible, meaningless container that provides no direction to screen readers. By replacing them with semantic elements like <code>&lt;header&gt;</code>, <code>&lt;main&gt;</code>, <code>&lt;section&gt;</code>, and<code>&lt;article&gt;</code>, I am actually giving screen readers a clear direction that is useful. The real "aha" moment was realizing I can still apply CSS directly to these semantic tags just like I used to with div classes. This allows me to style the page how I want while keeping the code accessible and foundationally correct.
+            </p>
+            </article>
+
+            <article>
+            <h2>Article and Section: When to use which?</h2>
+            
+            <p>While working through the assignment, I initially struggled with when to use an <code>&lt;article&gt;</code> versus a <code>&lt;section&gt;</code>. After looking at some of the readings and extra resources, it finally clicked: an <code>&lt;article&gt;</code> is something that can be understood independently and is reusable, like a plug-and-play module you could drop into three different blog posts. A <code>&lt;section&gt;</code>, on the other hand, relies on the other text that it's with and wouldn't make sense on its own. My mental go-to is now: articles are for reusable content, and sections are not.</p>
+
+            <p>This distinction is actually a massive realization for my day job. We have so much overlapping content. Even in this week's conference process guide, I realized the "Staging Folder" phase isn't actually specific to conferences. If I tweaked the wording a bit, it could be a standalone <code>&lt;article&gt;</code> that I also plug into our virtual webinar guides. I stuck with <code>&lt;section&gt;</code> tags for this specific assignment so I wouldn't have to rewrite the text, but learning to identify reusable content elements is going to be a major milestone for how I build training materials going forward.</p>
+            </article>
+
+            <article>
+                <h2>CSS Notes</h2>
+                <ul>
+                    <li>I really like the approach to use styling to highlight the tags being used.</li>
+                    <li>I wasn't sure if "figure" meant all boxed elements or just the image figure, so I added CSS for the elements but I commented that style out.</li>
+                    <li>I was not sure how I could make the lightgray image figure border <em>not</em> go all the way across the page.</li>
+                </ul>
+            </article>
+
+        </main>
+    </body>
+</html>
